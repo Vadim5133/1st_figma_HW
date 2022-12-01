@@ -37,7 +37,7 @@ h2 {
 }
 
 .underHeader {
-  background: url(/1st_figma_hw/image.jpg);
+  background: url(/image.jpg);
   width: 100%;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -83,7 +83,7 @@ h2 {
 }
 
 .hero-2 {
-  background: url(../1st_figma_hw/hero-2.png);
+  background: url(/hero-2.png);
   height: 483px;
   display: flex;
   justify-content: center;
