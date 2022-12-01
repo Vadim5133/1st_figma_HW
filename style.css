@@ -1,0 +1,123 @@
+body {
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 4000px;
+}
+
+h2 {
+  color: #007765;
+  font-weight: 500;
+  font-size: 67px;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.header {
+  height: 84px;
+  background: #007765;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  user-select: none;
+}
+
+.nav_item {
+  cursor: pointer;
+}
+
+.underHeader {
+  background: url(/1st_figma_hw/image.jpg);
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-position: top;
+  background-size: cover;
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pipernet_is_here {
+  color: white;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 84px;
+}
+
+.The_Problem {
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.Problem_paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.text_container {
+  width: 70%;
+}
+
+.text_container p {
+  margin-top: 20px;
+}
+
+.hero-2 {
+  background: url(../1st_figma_hw/hero-2.png);
+  height: 483px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-2text {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  width: 50%;
+}
+
+.PPCLogo {
+  margin-right: 48px;
+  /* float: left; */
+}
+
+.Introducing_PPC {
+  width: 50%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.PPClogo_p {
+  display: flex;
+}
