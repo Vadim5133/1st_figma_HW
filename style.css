@@ -147,7 +147,7 @@ h3 {
 
 .team-cards {
   margin: 0 auto;
-  max-width: 1219px;
+  max-width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,7 +165,7 @@ h3 {
 }
 
 .copyrights {
-  margin-top: 57px;
+  /* margin-top: 57px; */
   background: #333333;
   color: #ffffff;
   display: flex;
