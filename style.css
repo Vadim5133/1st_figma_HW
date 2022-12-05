@@ -1,8 +1,7 @@
 body {
   margin: 0 auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 4000px;
-}
+  }
 
 h2 {
   color: #007765;
@@ -165,7 +164,7 @@ h3 {
 }
 
 .copyrights {
-  /* margin-top: 57px; */
+  margin-top: 57px;
   background: #333333;
   color: #ffffff;
   display: flex;
