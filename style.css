@@ -45,7 +45,7 @@ h3 {
 }
 
 .underHeader {
-  background: url(/image.jpg);
+  background: url(image.jpg);
   width: 100%;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -91,7 +91,7 @@ h3 {
 }
 
 .hero-2 {
-  background: url(/hero-2.png);
+  background: url(hero-2.png);
   background-position: top;
   background-size: cover;
   mix-blend-mode: normal;
