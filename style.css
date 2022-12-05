@@ -10,6 +10,14 @@ h2 {
   font-size: 67px;
   text-align: center;
   padding-bottom: 16px;
+  line-height: 70px;
+}
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
 }
 
 .header {
@@ -44,7 +52,7 @@ h2 {
   background-position: top;
   background-size: cover;
   mix-blend-mode: normal;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +83,7 @@ h2 {
 }
 
 .text_container {
-  width: 70%;
+  width: 50%;
 }
 
 .text_container p {
@@ -84,7 +92,10 @@ h2 {
 
 .hero-2 {
   background: url(/hero-2.png);
-  height: 483px;
+  background-position: top;
+  background-size: cover;
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,11 +109,13 @@ h2 {
   text-align: center;
   color: #ffffff;
   width: 50%;
+  margin-top: 128px;
+  margin-bottom: 127px;
 }
 
 .PPCLogo {
   margin-right: 48px;
-  }
+}
 
 .Introducing_PPC {
   width: 50%;
@@ -111,12 +124,61 @@ h2 {
   font-size: 32px;
   line-height: 38px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: auto;
+  flex-direction: column;
+  padding-top: 48px;
 }
 
 .PPClogo_p {
   display: flex;
+}
+
+.Introducing_PPC p {
+  margin-top: 20px;
+}
+
+.the-team {
+  background: #eeeeee;
+  margin-top: 92px;
+  padding-top: 58px;
+}
+
+.team-cards {
+  margin: 0 auto;
+  max-width: 1219px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.member-card {
+  text-align: center;
+  width: 350px;
+  height: 283px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.copyrights {
+  margin-top: 57px;
+  background: #333333;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyrights-text {
+  width: 50%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 62px;
 }
